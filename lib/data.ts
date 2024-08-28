@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { BiSolidSchool } from "react-icons/bi";
 import linksaverssImg from "@/public/linksaverss.png";
 import rentacarssImg from "@/public/rentacarss.png";
 import promptaissImg from "@/public/promptaiss.png";
+import menuadvisorssImg from "@/public/menuadvisorss.png";
 
 export const links = [
   {
@@ -35,16 +37,23 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "1st Internship",
-    location: "Somewhere",
+    title: "SAP ABAP DEVELOPER INTERNSHIP ",
+    location: "Finpro Consulting",
     description:
-      "Internship description goes here.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024",
+      " I created programs involving ALV grids, dynamic screen updates, and interactive reports. I gained skills such as sending emails, calendar integrations, generating HTML outputs for web-based applications. integrating Smartforms for PDF, Excel generation and managing data in maintenance tables. Throughout projects, I gained experience with S/4HANA and applied Object-Oriented Programming (OOP) principles to build robust and efficient solutions. ",
+    icon: React.createElement(BiSolidSchool),
+    date: "2024 July - September ",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Menu Advisor",
+    description:
+      "A platform users can navigate between nearby food and beverage establishments, rate them, comment them and see the menu. Store owners can add product on the menu and make changes in their store page.",
+    tags: ["React", "Next.js", "Middleware", "Tailwind"],
+    imageUrl: menuadvisorssImg,
+  },
   {
     title: "PromptAI",
     description:
@@ -80,4 +89,5 @@ export const skillsData = [
   "Firebase",
   "MongoDB",
   "TypeScript",
+  "SAP ABAP",
 ] as const;

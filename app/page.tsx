@@ -14,6 +14,7 @@ export default function Home() {
       <About />
       <Projects />
       <Skills />
+      <h1 className="text-4xl mb-6">My Experience</h1>
       <Experience />
       <Contact />
     </main>
