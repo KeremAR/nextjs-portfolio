@@ -7,6 +7,8 @@ import linksaverssImg from "@/public/linksaverss.png";
 import rentacarssImg from "@/public/rentacarss.png";
 import promptaissImg from "@/public/promptaiss.png";
 import menuadvisorssImg from "@/public/menuadvisorss.png";
+import tradebotImg from "@/public/tradebot.png";
+import webscrapingImg from "@/public/webscraping.png";
 
 export const links = [
   {
@@ -47,6 +49,20 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Trading bot",
+    description:
+      "Continuously monitors coin prices, analyzes historical data, and forecasts future price movements to execute automated buy and sell operations.",
+    tags: ["Python", "Docker", "Binance Testnet Api", "Next.js", "WebSocket"],
+    imageUrl: tradebotImg,
+  },
+  {
+    title: "Web Scraping \& Price Prediction Game",
+    description:
+      " I developed a Python-based web scraping system that collects car and rental house data from sahibinden.com, processes it with Pandas, and stores it in Supabase. ",
+    tags: ["Selenium", "Next.js", "Python", "Supabase", "Pandas"],
+    imageUrl: webscrapingImg,
+  },
   {
     title: "Menu Advisor",
     description:
@@ -90,4 +106,12 @@ export const skillsData = [
   "MongoDB",
   "TypeScript",
   "SAP ABAP",
+  "Docker",
+  "Python",
+  "Web Scraping",
+  "Selenium",
+  "PostgreSQL",
+  "Linux",
+  "Azure",
+  "Supabase",
 ] as const;
