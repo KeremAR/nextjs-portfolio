@@ -21,13 +21,13 @@ export default function About() {
       <p className="mb-3">
         I am a 4th year student of{" "}
         <span className="font-medium">Computer Engineering</span> at{" "}
-        <span className="font-medium"> Akdeniz University.</span> I decided to
-        become a front-end developer. Skilled in{" "}
+        <span className="font-medium"> Akdeniz University.</span> . Skilled in{" "}
         <span className="font-medium">JavaScript</span> and{" "}
         <span className="font-medium">React</span>, with experience using{" "}
-        <span className="font-medium">Next.js</span> for building websites. I
+        <span className="font-medium">Next.js</span>. I
         completed my internship at Finpro consulting. I gained so much
-        experience in ABAP programming language.
+        experience in ABAP programming language. Right now, I am looking for an{" "}
+        <span className="font-medium">DevOps</span> opportunities.
       </p>
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
